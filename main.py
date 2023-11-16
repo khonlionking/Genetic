@@ -8,3 +8,4 @@ interface Message {
   content: string;
 }
 
+interface RealReq {
