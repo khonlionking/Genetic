@@ -12,3 +12,4 @@ interface RealReq {
   messages: Message[];
   temperature: number;
   stream: boolean;
+  model: string;
