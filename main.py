@@ -21,3 +21,4 @@ interface OpenAIChatOptions extends ChatOptions {
   proxy?: boolean;
 }
 
+export class OpenAI extends Chat {
