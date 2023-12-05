@@ -46,3 +46,4 @@ export class OpenAI extends Chat {
     return Number.MAX_SAFE_INTEGER;
   }
 
+  public async askStream(req: ChatRequest, stream: EventStream) {
