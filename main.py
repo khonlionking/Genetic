@@ -49,3 +49,4 @@ export class OpenAI extends Chat {
   public async askStream(req: ChatRequest, stream: EventStream) {
     const data: RealReq = {
       messages: req.messages,
+      temperature: 1.0,
