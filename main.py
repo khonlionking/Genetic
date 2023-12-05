@@ -47,3 +47,4 @@ export class OpenAI extends Chat {
   }
 
   public async askStream(req: ChatRequest, stream: EventStream) {
+    const data: RealReq = {
