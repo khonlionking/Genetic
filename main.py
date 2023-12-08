@@ -53,3 +53,4 @@ export class OpenAI extends Chat {
       model: req.model,
       stream: true,
     };
+    try {
