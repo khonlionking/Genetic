@@ -65,3 +65,4 @@ export class OpenAI extends Chat {
           }
           if (dataStr === '[DONE]') {
             return;
+          }
