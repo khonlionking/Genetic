@@ -67,3 +67,4 @@ export class OpenAI extends Chat {
             return;
           }
           const data = parseJSON(dataStr, {} as any);
+          if (!data?.choices) {
