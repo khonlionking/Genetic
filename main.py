@@ -74,3 +74,4 @@ export class OpenAI extends Chat {
           }
           const [
             {
+              delta: { content = '' },
