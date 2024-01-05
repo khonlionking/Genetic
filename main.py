@@ -95,3 +95,4 @@ export class OpenAI extends Chat {
     }
   }
 }import { Chat, ChatOptions, ChatRequest, ModelType } from '../base';
+import { AxiosInstance, AxiosRequestConfig, CreateAxiosDefaults } from 'axios';
