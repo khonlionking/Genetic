@@ -112,3 +112,4 @@ interface RealReq {
   model: string;
 }
 
+interface OpenAIChatOptions extends ChatOptions {
