@@ -110,3 +110,4 @@ interface RealReq {
   temperature: number;
   stream: boolean;
   model: string;
+}
