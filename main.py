@@ -117,3 +117,4 @@ interface OpenAIChatOptions extends ChatOptions {
   api_key?: string;
   proxy?: boolean;
 }
+
