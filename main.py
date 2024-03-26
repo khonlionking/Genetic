@@ -129,3 +129,4 @@ export class OpenAI extends Chat {
         headers: {
           'Content-Type': 'application/json',
           accept: 'text/event-stream',
+          'Cache-Control': 'no-cache',
