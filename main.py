@@ -139,3 +139,4 @@ export class OpenAI extends Chat {
     );
   }
 
+  support(model: ModelType): number {
