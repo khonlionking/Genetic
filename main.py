@@ -141,3 +141,4 @@ export class OpenAI extends Chat {
 
   support(model: ModelType): number {
     return Number.MAX_SAFE_INTEGER;
+  }
