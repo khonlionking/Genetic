@@ -153,3 +153,4 @@ export class OpenAI extends Chat {
     try {
 import { Event, EventStream, parseJSON } from '../../utils';
 
+interface Message {
