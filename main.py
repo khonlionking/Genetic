@@ -161,3 +161,4 @@ interface Message {
 interface RealReq {
   messages: Message[];
   temperature: number;
+  stream: boolean;
