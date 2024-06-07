@@ -166,3 +166,4 @@ interface RealReq {
 }
 
 interface OpenAIChatOptions extends ChatOptions {
+  base_url?: string;
