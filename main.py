@@ -180,3 +180,4 @@ export class OpenAI extends Chat {
       {
         baseURL: options?.base_url || 'https://api.openai.com/',
         headers: {
+          'Content-Type': 'application/json',
