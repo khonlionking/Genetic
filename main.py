@@ -191,3 +191,4 @@ export class OpenAI extends Chat {
       !!options?.proxy,
     );
   }
+
