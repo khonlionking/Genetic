@@ -212,3 +212,4 @@ export class OpenAI extends Chat {
           const dataStr = chunk.replace('data: ', '');
           if (!dataStr) {
             return;
+          }
