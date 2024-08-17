@@ -216,3 +216,4 @@ export class OpenAI extends Chat {
           if (dataStr === '[DONE]') {
             return;
           }
+          const data = parseJSON(dataStr, {} as any);
