@@ -231,3 +231,4 @@ export class OpenAI extends Chat {
           if (finish_reason === 'stop') {
             return;
           }
+          stream.write(Event.message, { content });
