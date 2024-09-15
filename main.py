@@ -239,3 +239,4 @@ export class OpenAI extends Chat {
         stream.end();
       });
     } catch (e: any) {
+      this.logger.error(e.message);
