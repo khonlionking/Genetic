@@ -254,3 +254,4 @@ import { Event, EventStream, parseJSON } from '../../utils';
 
 interface Message {
   role: string;
+  content: string;
