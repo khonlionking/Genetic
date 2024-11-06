@@ -285,3 +285,4 @@ export class OpenAI extends Chat {
           'Proxy-Connection': 'keep-alive',
           Authorization: `Bearer ${options?.api_key || ''}`,
         },
+      } as CreateAxiosDefaults,
