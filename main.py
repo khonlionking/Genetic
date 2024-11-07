@@ -287,3 +287,4 @@ export class OpenAI extends Chat {
         },
       } as CreateAxiosDefaults,
       false,
+      !!options?.proxy,
