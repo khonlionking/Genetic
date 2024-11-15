@@ -301,3 +301,4 @@ export class OpenAI extends Chat {
       temperature: 1.0,
       model: req.model,
       stream: true,
+    };
