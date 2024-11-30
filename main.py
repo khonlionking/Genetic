@@ -320,3 +320,4 @@ export class OpenAI extends Chat {
             stream.write(Event.error, { error: 'not found data.choices' });
             stream.end();
             return;
+          }
