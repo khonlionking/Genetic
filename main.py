@@ -332,3 +332,4 @@ export class OpenAI extends Chat {
           }
           stream.write(Event.message, { content });
         }),
+      );
