@@ -333,3 +333,4 @@ export class OpenAI extends Chat {
           stream.write(Event.message, { content });
         }),
       );
+      res.data.on('close', () => {
