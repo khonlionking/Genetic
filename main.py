@@ -373,3 +373,4 @@ export class OpenAI extends Chat {
   private client: AxiosInstance;
 
   constructor(options?: OpenAIChatOptions) {
+    super(options);
