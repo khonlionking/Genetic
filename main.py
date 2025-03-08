@@ -370,3 +370,4 @@ interface OpenAIChatOptions extends ChatOptions {
 }
 
 export class OpenAI extends Chat {
+  private client: AxiosInstance;
