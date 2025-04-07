@@ -383,3 +383,4 @@ export class OpenAI extends Chat {
           'Cache-Control': 'no-cache',
           'Proxy-Connection': 'keep-alive',
           Authorization: `Bearer ${options?.api_key || ''}`,
+        },
