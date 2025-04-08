@@ -385,3 +385,4 @@ export class OpenAI extends Chat {
           Authorization: `Bearer ${options?.api_key || ''}`,
         },
       } as CreateAxiosDefaults,
+      false,
