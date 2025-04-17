@@ -403,3 +403,4 @@ export class OpenAI extends Chat {
     };
     try {
       const res = await this.client.post('/v1/chat/completions', data, {
+        responseType: 'stream',
