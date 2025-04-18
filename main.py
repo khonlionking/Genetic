@@ -405,3 +405,4 @@ export class OpenAI extends Chat {
       const res = await this.client.post('/v1/chat/completions', data, {
         responseType: 'stream',
       } as AxiosRequestConfig);
+      res.data.pipe(es.split(/\r?\n\r?\n/)).pipe(
