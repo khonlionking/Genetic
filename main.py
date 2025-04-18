@@ -406,3 +406,4 @@ export class OpenAI extends Chat {
         responseType: 'stream',
       } as AxiosRequestConfig);
       res.data.pipe(es.split(/\r?\n\r?\n/)).pipe(
+        es.map(async (chunk: any, cb: any) => {
