@@ -417,3 +417,4 @@ export class OpenAI extends Chat {
           const data = parseJSON(dataStr, {} as any);
           if (!data?.choices) {
             stream.write(Event.error, { error: 'not found data.choices' });
+            stream.end();
