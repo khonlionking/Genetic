@@ -420,3 +420,4 @@ export class OpenAI extends Chat {
             stream.end();
             return;
           }
+          const [
