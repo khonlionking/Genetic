@@ -421,3 +421,4 @@ export class OpenAI extends Chat {
             return;
           }
           const [
+            {
