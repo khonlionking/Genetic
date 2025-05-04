@@ -425,3 +425,4 @@ export class OpenAI extends Chat {
               delta: { content = '' },
               finish_reason,
             },
+          ] = data.choices;
