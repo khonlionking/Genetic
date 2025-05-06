@@ -427,3 +427,4 @@ export class OpenAI extends Chat {
             },
           ] = data.choices;
           if (finish_reason === 'stop') {
+            return;
