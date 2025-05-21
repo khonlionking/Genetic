@@ -442,3 +442,4 @@ export class OpenAI extends Chat {
       stream.end();
     }
   }
+}import { Chat, ChatOptions, ChatRequest, ModelType } from '../base';
