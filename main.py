@@ -451,3 +451,4 @@ import es from 'event-stream';
 import { Event, EventStream, parseJSON } from '../../utils';
 
 interface Message {
+  role: string;
