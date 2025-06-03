@@ -456,3 +456,4 @@ interface Message {
 }
 
 interface RealReq {
+  messages: Message[];
