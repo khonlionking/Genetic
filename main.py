@@ -474,3 +474,4 @@ export class OpenAI extends Chat {
   constructor(options?: OpenAIChatOptions) {
     super(options);
     this.client = CreateAxiosProxy(
+      {
