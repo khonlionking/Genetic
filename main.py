@@ -475,3 +475,4 @@ export class OpenAI extends Chat {
     super(options);
     this.client = CreateAxiosProxy(
       {
+        baseURL: options?.base_url || 'https://api.openai.com/',
